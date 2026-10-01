@@ -1,0 +1,13 @@
+# Mengabaikan node_modules di semua folder
+node_modules/
+**/node_modules/
+
+# Mengabaikan file env/kredensial rahasia
+.env
+**/.env
+
+# Mengabaikan cache build Expo & Claude
+.expo/
+**/.expo/
+.claude/
+**/.claude/
